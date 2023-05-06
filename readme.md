@@ -10,7 +10,7 @@
 [![Vben Admin](https://img.shields.io/badge/Vben%20Admin-v2.8.0-yellow.svg)](https://vvbin.cn/doc-next/)
 [![Ent](https://img.shields.io/badge/Ent-v0.11.9-blue.svg)](https://entgo.io/)
 [![Casbin](https://img.shields.io/badge/Casbin-v2.52.1-orange.svg)](https://github.com/casbin/casbin)
-[![Release](https://img.shields.io/badge/Release-v0.2.7-green.svg)](https://github.com/suyuan32/simple-admin-core/releases)
+[![Release](https://img.shields.io/badge/Release-v4.0.7-green.svg)](https://github.com/ctra-wang/CTRA-Platform/releases/tag/v4.0.7)
 
 
 ## 简介
@@ -19,6 +19,11 @@ Ctra Platform 中国越野跑平台
 专注于中国越野跑者，最高软件技术支持平台
 目前主要以提供ITRA积分作为主要功能，结合【知野】、【积分】、【FKT】、【赛事报名】四大模块为中国越野跑爱好者提供免费服务
 
+<h3>CTRA理念</h3>
+<ul>
+<li>slogan: Data Drivers All We DO!</li>
+<li>利用数字化，将中国越野跑从小众运动成为一项时尚运动！</li>
+</ul>
 
 ## 特性
 
@@ -31,6 +36,17 @@ Ctra Platform 中国越野跑平台
 - **我的（首页）-里程碑**: 这里在v4.0.0版本中进行很大的改变，分为4个tabs：`精选`、`粉丝`、`FKT`、`动态（知野）`
 - **里程碑-精选**: 这里拥有ITRA信息（除本场表现分）外，新增上传图片、状态、赛事、号码簿
 
+
+## 里程碑 | MileStone
+
+ - 2017年 --- 创人-王磊，设计原型，开始立项 
+ - 2018-2019年 --- 开发CTRA v1.0 
+ - 2019年 5月 --- CTRA 小程序 v1.0 正式上线 
+ - 2019年 12月 --- CTRA 小程序 v2.0 正式上线 
+ - 2021年 3月 --- CTRA 小程序 v3.0 即将上线 
+ - 2021年 3月 --- CTRA云赛事管理系统  Bate v1.0  即将上线 
+ - 2022年 1月 --- CTRA云赛事管理系统  暂时下线
+ - 2023年 2月 --- CTRA 小程序 v4.0  Bate 上线
 
 ## 项目安排 | RoadMap 
 
