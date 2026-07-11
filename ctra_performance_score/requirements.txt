@@ -1,0 +1,7 @@
+loguru==0.7.2
+matplotlib==3.8.2
+pandas==2.3.3
+PyMySQL==1.1.0
+python_dateutil==2.8.2
+scikit_learn==1.7.2
+tabpfn==6.0.6
