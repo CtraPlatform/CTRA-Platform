@@ -1,11 +1,11 @@
 import pymysql as ps
 def con_db():
     return ps.connect(
-        host='bj-cdb-537pmwkn.sql.tencentcdb.com',  # 地址
-        port=63736,
-        user='ctra_python_group',  # 用户名
-        password='ctra_platform!QAZxsw2',  # 密码
-        database='itra_data_asset',
+        host='mysql地址',  # 地址
+        port=端口,
+        user='你的用户名',  # 用户名
+        password='你的密码',  # 密码
+        database='数据库名',
         charset='utf8',
     )
 def operateMysql(sql,param=None):

@@ -1,0 +1,5 @@
+asposestorage==1.0.2
+loguru==0.7.3
+numpy==2.5.1
+pandas==3.0.3
+tabpfn==6.3.0
