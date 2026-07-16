@@ -39,9 +39,9 @@ from loguru import logger
 
 # 添加父目录到路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from models import dayahead_info_cluster
+from ctra_performance_score.ctra_performance_tabpfn.models import dayahead_info_cluster
 from feature_engineering import process_features
-from base_funs import time_to_second
+from ctra_performance_score.base.base_funs import time_to_second
 
 # TabPFN
 try:

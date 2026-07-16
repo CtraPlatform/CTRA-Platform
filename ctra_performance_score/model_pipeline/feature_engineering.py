@@ -9,7 +9,7 @@ import os
 
 # 添加父目录到路径，以便导入同目录下的模块
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from base_funs import time_to_minute
+from ctra_performance_score.base.base_funs import time_to_minute
 
 
 def process_features(data_df):

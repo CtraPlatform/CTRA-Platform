@@ -6,12 +6,12 @@ import multiprocessing as mp
 from concurrent.futures import ProcessPoolExecutor, as_completed
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-from connect_sql import con_db,operateMysql,operateMysql_multiple
-from base_funs import time_to_minute
-from models import dayahead_info_cluster,feature_selection,train_tabpfn_model_with_params
+from ctra_performance_score.base.connect_sql import con_db,operateMysql,operateMysql_multiple
+from ctra_performance_score.base.base_funs import time_to_minute
+from ctra_performance_score.ctra_performance_tabpfn.models import dayahead_info_cluster,feature_selection,train_tabpfn_model_with_params
 from sklearn.preprocessing import StandardScaler
 from loguru import logger
-from personal_performance_score import calculate_personal_performance_score
+from ctra_performance_score.ctra_performance_tabpfn.personal_performance_score import calculate_personal_performance_score
 def select_data_info(test_race_date=None):
     con_db()
     sql = '''SELECT

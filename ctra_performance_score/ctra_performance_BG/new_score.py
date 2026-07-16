@@ -4,8 +4,8 @@ import numpy as np
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
-from connect_sql import con_db, operateMysql, operateMysql_multiple
-from base_funs import time_to_second, seconds_to_time
+from ctra_performance_score.base.connect_sql import con_db, operateMysql, operateMysql_multiple
+from ctra_performance_score.base.base_funs import time_to_second, seconds_to_time
 from loguru import logger
 
 logger.add('./log/output.log')

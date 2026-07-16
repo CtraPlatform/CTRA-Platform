@@ -4,7 +4,7 @@ input:36个月内的所有比赛日期和成绩
 output:个人综合表现分
 '''
 import datetime
-from connect_sql import con_db,operateMysql,operateMysql_multiple
+from ctra_performance_score.base.connect_sql import con_db,operateMysql,operateMysql_multiple
 from dateutil.relativedelta import relativedelta
 import pandas as pd
 import numpy as np

@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-from connect_sql import con_db,operateMysql,operateMysql_multiple
-from base_funs import time_to_second,seconds_to_time
-from personal_performance_score import deal_time_score 
+from ctra_performance_score.base.connect_sql import con_db,operateMysql,operateMysql_multiple
+from ctra_performance_score.base.base_funs import time_to_second,seconds_to_time
+from ctra_performance_score.ctra_performance_tabpfn.personal_performance_score import deal_time_score 
 from loguru import logger
 logger.add('./log/output.log')
 # 当前年月，用于向量化 month_diff（与原 datetime.now() 等价）

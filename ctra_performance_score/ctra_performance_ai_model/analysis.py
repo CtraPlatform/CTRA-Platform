@@ -18,8 +18,8 @@ except ImportError as exc:
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 
-from connect_sql import con_db, operateMysql
-from base_funs import time_to_minute
+from ctra_performance_score.base.connect_sql import con_db, operateMysql
+from ctra_performance_score.base.base_funs import time_to_minute
 
 
 def select_data_info(test_race_date=None):

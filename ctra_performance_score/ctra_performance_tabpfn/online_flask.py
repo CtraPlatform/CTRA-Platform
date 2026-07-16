@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from tabpfn_ctra_new import main
+from ctra_performance_score.ctra_performance_tabpfn.tabpfn_ctra_new import main
 import secrets
 
 app = Flask(__name__)
